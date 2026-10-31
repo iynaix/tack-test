@@ -1,0 +1,27 @@
+{
+  "$declared": {
+    "nixpkgs": "https://channels.nixos.org/nixos-unstable/nixexprs.tar.zst"
+  },
+  "nixpkgs": {
+    "type": "tarball",
+    "url": "https://releases.nixos.org/nixos/unstable/nixos-26.11pre1105037.1c89083e451e/nixexprs.tar.zst?rev=1c89083e451e891152365b799595cf7790a43325&lastModified=1793341285",
+    "rev": "1c89083e451e891152365b799595cf7790a43325",
+    "narHash": "sha256-LOv16TsMYV2/8BUYnhSxHkOASe7es2ORbqMeLlZJ8Hc=",
+    "lastModified": 1793341285,
+    "patched": {
+      "path": "/nix/store/5fmw7vmh5z7wglz0gxscffxpjkm74i6f-source",
+      "narHash": "sha256-liLUGFFqqT5F9xPL+rxByCjW5mPT6E/ZN1fTEnAcaZM=",
+      "lastModified": 1793341285,
+      "patches": [
+        {
+          "source": "https://github.com/NixOS/nixpkgs/pull/560780",
+          "url": "https://github.com/NixOS/nixpkgs/pull/560780",
+          "file": "patches/nixpkgs/pr-560780.patch",
+          "sha256": "1e6960b41bbb2b77a2cac67f21755378f0346b30bf85117f381b2da4b6c8c484",
+          "head": "477a86df848b03eef447a06f0fd505ed2f10375d"
+        }
+      ],
+      "diff": "5b8887b649fddab5976e9a64b7d2f5fc56cb9de0bdbb35aee4e2b59350157a8a"
+    }
+  }
+}
